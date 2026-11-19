@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Yogesh Rai"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Yogesh Rai"
+description              : &description "Yogesh Rai is a PhD student at the University of Alabama in Huntsville researching visual analytics, immersive analytics, and mechanistic interpretability."
+url                      : https://yogeshry.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "yogeshry/yogeshry.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -50,7 +50,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
+google_site_verification : "-AYquDIabXn0xOvHALBikvAbiqC91DxVkmYpVWpP4pQ"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -66,27 +66,30 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Yogesh Rai"
+  links:
+    - "https://scholar.google.com/citations?user=ViHmwwEAAAAJ"
+    - "https://github.com/yogeshry"
+    - "https://www.linkedin.com/in/yogeshry"
 
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false
   google:
     tracking_id          :
 
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Yogesh Rai"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  bio              : "PhD student in visual analytics, immersive analytics, and interpretability"
+  location         : "Huntsville, AL, USA"
+  employer         : "University of Alabama in Huntsville"
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=ViHmwwEAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,20 +99,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "yogeshry"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "yogeshry"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
